@@ -22,13 +22,13 @@ export const MAX_DIRSTR_RESULTS_TOTAL_BEGINNING = 100
 export const MAX_DIRSTR_RESULTS_TOTAL_TOOL = 100
 
 // tool info
-export const MAX_FILE_CHARS_PAGE = 500_000
+export const MAX_FILE_CHARS_PAGE = 600_000
 export const MAX_CHILDREN_URIs_PAGE = 500
 
 // terminal tool info
 export const MAX_TERMINAL_CHARS = 100_000
-export const MAX_TERMINAL_INACTIVE_TIME = 8 // seconds
-export const MAX_TERMINAL_BG_COMMAND_TIME = 5
+export const MAX_TERMINAL_INACTIVE_TIME = 200 // seconds
+export const MAX_TERMINAL_BG_COMMAND_TIME = 200
 
 
 // Maximum character limits for prefix and suffix context
